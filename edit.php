@@ -120,7 +120,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE id=$id");
 								<strong class="card-title"><?php echo $boxsn ?></strong>
 
 								<button type="button" class="btn btn-success mb-1 btn-sm" data-toggle="modal" data-target="#largeModal">
-									Attach File
+									Attach Document
 								</button>
 							</div>
 								<div class="card-body">
@@ -180,7 +180,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE id=$id");
 			<div class="modal-dialog modal-lg" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="largeModalLabel">Attach File to <code><?php echo $boxsn ?></code></h5>
+						<h5 class="modal-title" id="largeModalLabel">Attach Document <code><?php echo $boxsn ?></code></h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
